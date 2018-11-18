@@ -19,3 +19,6 @@ The above command runs all the tests inside the feature folder but that is not w
 	cucumber features/values_test.feature:9
 This will run the test scenario at line number 9 in the file features/main.feature.
 
+To generate an HTML report run 
+
+    cucumber features/extra_test_that_actually_run.feature -r features --format html --out features/reports.html
